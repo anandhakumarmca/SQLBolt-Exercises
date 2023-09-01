@@ -17,7 +17,8 @@ answer : SELECT * FROM movies;
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
 #Exercise 2 — Tasks
-
+----------------------------------------------------------------------------
+Question1 : Find the title of each film 
 Question1 : Find the movie with a row id of 6
 answer1 : SELECT id, title FROM movies WHERE id = 6; 
 answer2 : SELECT * FROM movies where id = 6;
@@ -38,7 +39,8 @@ answer2 : SELECT * FROM movies WHERE id IN(1,2,3,4,5);
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
 #Exercise 3 — Tasks
-
+----------------------------------------------------------------------------
+Question1 : Find the title of each film 
 Question1 : Find all the Toy Story movies
 answer1 : SELECT title, director FROM movies WHERE title LIKE "Toy Story%"; 
 answer2 : SELECT * FROM movies WHERE title LIKE "Toy Story%";
@@ -54,7 +56,8 @@ answer1 : SELECT * FROM movies WHERE title LIKE "WALL-_";
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
 #Exercise 4 — Tasks
-
+----------------------------------------------------------------------------
+Question1 : Find the title of each film 
 Question1 : List all directors of Pixar movies (alphabetically), without duplicates
 answer : SELECT DISTINCT director FROM movies ORDER BY director ASC;
 
@@ -69,7 +72,8 @@ answer : SELECT title FROM movies ORDER BY title ASC LIMIT 5 OFFSET 5;
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
 #Review 1 — Tasks
-
+----------------------------------------------------------------------------
+Question1 : Find the title of each film 
 Question1 : List all the Canadian cities and their populations 
 answer : SELECT city, population FROM north_american_cities WHERE country = "Canada";
 
@@ -84,6 +88,5 @@ answer : SELECT city, population FROM north_american_cities WHERE country LIKE "
 
 Question5 : List the third and fourth largest cities (by population) in the United States and their population
 answer1 : SELECT city, population FROM north_american_cities WHERE country LIKE "United States" ORDER BY population DESC LIMIT 2 OFFSET 2;
-
-----------------------------------------------------------------------------
-----------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------

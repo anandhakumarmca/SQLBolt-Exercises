@@ -31,4 +31,4 @@ Once you have completed all the tasks, share the GitHub repository link with you
 
 By following these guidelines, you'll be able to complete your SQL exercises on SQLBolt, document your progress with screenshots and text files, and share your work through a GitHub repository.
 
-Happy Coding!!!
+Happy Coding!
